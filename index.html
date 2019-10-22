@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Sharp Notions - HTML/CSS Challenge</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sharp Notions HTML and CSS challenge">
+  <meta name="author" content="Sharp Notions LLC">
+  <script src="https://kit.fontawesome.com/eeaf0e9ca6.js" crossorigin="anonymous"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700|Roboto:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="site.css">
+  <link rel="stylesheet" href="tachyons.min.css">
+
+</head>
+
+<body>
+    <div class="page-wrapper">
+      <header>
+        <div class="header-content">
+          <img src="./img/sn-logo-dark.svg" alt="Logo" class="logo">
+          <button class="search-button">
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+      </header>
+      <div class="search-box search-box--hidden">
+        <input type="text" class="search-input" placeholder="Enter search text here">
+        <button class="search-submit">Search</button>
+      </div>
+
+      <!-- First Section Starts Here -->
+      <!-- Header: Make all the right money moves. -->
+      <div class="flex-container" id="flexHeader">
+        <div>
+          <h1 class='pt4 tc' >Make all the right money moves.</h1>
+          <!-- Copy: Need objective advice, expert info and helpful tools to answer your money advice? Turn to the Nerds. -->
+        </div>
+        <div>
+          <h3 class="tc">Need objective advice, expert info and helpful tools to answer your money advice? Turn to the Nerds.</h3>
+        </div>
+          <!-- Subheader: Easilt compare tons of options to find your best -->
+        <div>
+          <p class=' pt3 tc'>Easily compare tons of options to find your best</p>
+        </div>
+      </div> <!-- END flexHeader -->
+
+      <!-- Card Item Copy: Credit Cards, Savings Account, Online Broker, Mortgage, Personal Loan -->
+      <div class="flex-container" id="flexCard">
+        <div class="card-box" id="Credit-Card">
+          <img src="./img/credit-card.svg" alt="Credit Cards" class="cardImg">
+          <p id="imgLabel">CREDIT CARDS</p>
+        </div>
+        <div class="card-box" id="Savings-Account">
+          <img src="./img/savings-account.svg" alt="Savings Account" class="cardImg">
+          <p id="imgLabel">SAVINGS ACCOUNT</p>
+        </div>
+        <div class="card-box" id="Brooker">
+            <img src="./img/online-broker.svg" alt="Online Broker" class="cardImg">
+            <p id="imgLabel">ONLINE BROKER</p>
+        </div>
+        <div class="card-box" id="Mortgage">
+          <img src="./img/mortgage.svg" alt="Mortgage" class="cardImg">
+          <p id="imgLabel">MORTGAGE</p>
+        </div>
+        <div class="card-box" id="Personal Loan">
+          <img src="./img/personal-loan.svg" alt="Personal Loan" class="cardImg">
+          <p id="imgLabel">PERSONAL LOAN</p>
+        </div>
+      </div>
+
+    </div> <!-- END page-wrapper -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="site.js"></script>
+</body>
+</html>
